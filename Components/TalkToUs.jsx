@@ -25,11 +25,11 @@ const ContactForm = () => {
 
   return (
     <section id="contact" className="w-full py-12 md:py-20 scroll-mt-20">
-      {/* Container with RED BORDER */}
+      {/* Container with red Border */}
       <div className="max-w-[1100px] mx-auto border border-red-400/50 rounded-[40px] p-8 md:p-14 bg-white shadow-sm">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
           
-          {/* LEFT SECTION */}
+          {/* Left Section*/}
           <div className="lg:col-span-5 space-y-6">
             <div>
               <h2 className="text-4xl font-bold tracking-tight text-black mb-3">Talk to us</h2>
@@ -43,7 +43,7 @@ const ContactForm = () => {
             </a>
           </div>
 
-          {/* RIGHT SECTION: Form */}
+          {/* Form section*/}
           <div className="lg:col-span-7">
             <form className="space-y-4" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -91,5 +91,6 @@ const ContactForm = () => {
     </section>
   );
 };
+
 
 export default ContactForm;
